@@ -138,15 +138,15 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejBarcode extends WidgetBase {
     constructor(element?: any);
   }
+  export class ejButton extends WidgetBase {
+    constructor(element?: any);
+  }
   export class ejBulletGraph extends WidgetBase {
     qualitativeRanges: any;
     constructor(element?: any);
   }
   export class QualitativeRange {
   
-  }
-  export class ejButton extends WidgetBase {
-    constructor(element?: any);
   }
   export class ejChart extends WidgetBase {
     series: any;
