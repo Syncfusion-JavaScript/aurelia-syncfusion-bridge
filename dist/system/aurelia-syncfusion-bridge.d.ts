@@ -129,12 +129,8 @@ declare module 'aurelia-syncfusion-bridge' {
     ejTemplate(): EjConfigBuilder;
   }
   export function configure(aurelia: any, configCallback?: ((builder: EjConfigBuilder) => void)): any;
-  export class ejBulletGraph extends WidgetBase {
-    qualitativeRanges: any;
+  export class ejAccordion extends WidgetBase {
     constructor(element?: any);
-  }
-  export class QualitativeRange {
-  
   }
   export class ejAutocomplete extends WidgetBase {
     constructor(element?: any);
@@ -142,8 +138,12 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejBarcode extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejAccordion extends WidgetBase {
+  export class ejBulletGraph extends WidgetBase {
+    qualitativeRanges: any;
     constructor(element?: any);
+  }
+  export class QualitativeRange {
+  
   }
   export class ejButton extends WidgetBase {
     constructor(element?: any);
@@ -167,10 +167,10 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejComboBox extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejDatePicker extends WidgetBase {
+  export class ejCurrencyTextbox extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejCurrencyTextbox extends WidgetBase {
+  export class ejDatePicker extends WidgetBase {
     constructor(element?: any);
   }
   export class ejDateRangePicker extends WidgetBase {
@@ -194,6 +194,9 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejFileExplorer extends WidgetBase {
     constructor(element?: any);
   }
+  export class ejGantt extends WidgetBase {
+    constructor(element?: any);
+  }
   export class Column {
     template: any;
     setTemplates(): any;
@@ -201,9 +204,6 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejGrid extends WidgetBase {
     columns: any;
     constructor(element?: any, templateEngine?: any);
-  }
-  export class ejGantt extends WidgetBase {
-    constructor(element?: any);
   }
   export class ejGroupButton extends WidgetBase {
     constructor(element?: any);
@@ -227,14 +227,14 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejListBox extends WidgetBase {
     constructor(element?: any);
   }
+  export class ejListView extends WidgetBase {
+    constructor(element?: any);
+  }
   export class Layer {
   
   }
   export class ejMap extends WidgetBase {
     layers: any;
-    constructor(element?: any);
-  }
-  export class ejListView extends WidgetBase {
     constructor(element?: any);
   }
   export class ejMaskEdit extends WidgetBase {
