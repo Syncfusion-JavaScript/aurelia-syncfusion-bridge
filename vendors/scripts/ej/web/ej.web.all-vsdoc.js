@@ -21781,9 +21781,6 @@ jQuery.fn.ejSchedule = function (options) {
 ///When set to true, displays the location field additionally on Schedule appointment window.
 ///<br/>showLocationField-boolean	default-false
 ///<br/><br/>
-///It accepts the value which indicates whether to show or hide the time slots in Schedule.
-///<br/>showTimeScale-boolean	default-true
-///<br/><br/>
 ///When set to false, doesn't render the start and end timezone fields on the Schedule appointment window.
 ///<br/>showTimeZoneFields-boolean	default-true
 ///<br/><br/>
@@ -23196,6 +23193,12 @@ setActiveCell:function(rowIdx, colIdx, sheetIdx){
 /// <param name="rowIdx"	type="number">Pass the row index.</param>
 /// <param name="colIdx"	type="number">Pass the column index.</param>
 /// <param name="sheetIdx"	type="number">Pass the index of the sheet.</param>
+},
+setActiveSheetIndex:function(sheetIdx){
+/// <summary>
+/// This method is used to set active sheet index for the Spreadsheet.
+/// </summary>
+/// <param name="sheetIdx"	type="number">Pass the active sheet index for Spreadsheet.</param>
 },
 setBorder:function(property, range){
 /// <summary>

@@ -1,3 +1,18 @@
+### 13.0.1 (2020-09-25)
+
+
+#### Bug Fixes
+
+* **jsondata:** fixed some encodings ([6d9410e2](https://github.com/aurelia-ui-toolkits/aurelia-syncfusion-bridge.git/commit/6d9410e2ff6b794bf7562818115261804419a497))
+
+
+#### Features
+
+* **all:**
+  * updated to aurelia dependencies to 1.0.0 ([3943227a](https://github.com/aurelia-ui-toolkits/aurelia-syncfusion-bridge.git/commit/3943227a26bc9e47ae3f80070477494a25da64dc))
+  * initial version ([f55a0a5d](https://github.com/aurelia-ui-toolkits/aurelia-syncfusion-bridge.git/commit/f55a0a5d5fd3f3a5e3375eb005b549cf90c3750b))
+
+
 ### 12.0.2 (2020-08-12)
 
 
