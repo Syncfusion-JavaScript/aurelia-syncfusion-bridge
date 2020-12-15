@@ -145,15 +145,15 @@ declare module 'aurelia-syncfusion-bridge' {
   export class QualitativeRange {
   
   }
-  export class ejButton extends WidgetBase {
-    constructor(element?: any);
-  }
   export class ejChart extends WidgetBase {
     series: any;
     constructor(element?: any);
   }
   export class Series {
   
+  }
+  export class ejButton extends WidgetBase {
+    constructor(element?: any);
   }
   export class ejCheckBox extends WidgetBase {
     constructor(element?: any);
@@ -221,10 +221,10 @@ declare module 'aurelia-syncfusion-bridge' {
   export class KanbanColumn {
   
   }
-  export class ejLinearGauge extends WidgetBase {
+  export class ejListBox extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejListBox extends WidgetBase {
+  export class ejLinearGauge extends WidgetBase {
     constructor(element?: any);
   }
   export class ejListView extends WidgetBase {
@@ -240,16 +240,16 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejMaskEdit extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejMenu extends WidgetBase {
-    constructor(element?: any);
-  }
   export class ejNavigationDrawer extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejNumericTextbox extends WidgetBase {
+  export class ejMenu extends WidgetBase {
     constructor(element?: any);
   }
   export class ejOverview extends WidgetBase {
+    constructor(element?: any);
+  }
+  export class ejNumericTextbox extends WidgetBase {
     constructor(element?: any);
   }
   export class ejPager extends WidgetBase {
@@ -258,10 +258,10 @@ declare module 'aurelia-syncfusion-bridge' {
   export class ejPdfViewer extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejPercentageTextbox extends WidgetBase {
+  export class ejPivotChart extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejPivotChart extends WidgetBase {
+  export class ejPercentageTextbox extends WidgetBase {
     constructor(element?: any);
   }
   export class ejPivotGauge extends WidgetBase {
@@ -350,6 +350,9 @@ declare module 'aurelia-syncfusion-bridge' {
     sheets: any;
     constructor(element?: any);
   }
+  export class ejSymbolPalette extends WidgetBase {
+    constructor(element?: any);
+  }
   export class ejSunburstChart extends WidgetBase {
     levels: any;
     constructor(element?: any);
@@ -357,19 +360,16 @@ declare module 'aurelia-syncfusion-bridge' {
   export class SunburstLevels {
   
   }
-  export class ejSymbolPalette extends WidgetBase {
+  export class ejTagCloud extends WidgetBase {
     constructor(element?: any);
   }
   export class ejTab extends WidgetBase {
     constructor(element?: any);
   }
-  export class ejTagCloud extends WidgetBase {
+  export class ejTimePicker extends WidgetBase {
     constructor(element?: any);
   }
   export class ejTile extends WidgetBase {
-    constructor(element?: any);
-  }
-  export class ejTimePicker extends WidgetBase {
     constructor(element?: any);
   }
   export class ejToggleButton extends WidgetBase {
